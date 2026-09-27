@@ -1,0 +1,82 @@
+{
+  "n_quarters": 32,
+  "r_squared": 0.5049882241640967,
+  "adjusted_r_squared": 0.45195124818167853,
+  "correlations": [
+    {
+      "variable": "unemployment_rate",
+      "r": -0.3281208554294742,
+      "p_value": 0.06674053263029414
+    },
+    {
+      "variable": "unemployment_adjusted",
+      "r": -0.4557916465557984,
+      "p_value": 0.008750744615129393
+    },
+    {
+      "variable": "avg_tbill_yield",
+      "r": 0.6395797775407714,
+      "p_value": 8.111900795766047e-05
+    },
+    {
+      "variable": "gdp_growth",
+      "r": 0.2598333820081026,
+      "p_value": 0.15095601122041102
+    }
+  ],
+  "regression": [
+    {
+      "variable": "intercept",
+      "coefficient": 377654.2910345294,
+      "standard_error": 60322.95846517755,
+      "p_value": 9.104753603227383e-07
+    },
+    {
+      "variable": "unemployment_rate",
+      "coefficient": 10755.892437453496,
+      "standard_error": 14883.144797484647,
+      "p_value": 0.47586420541283825
+    },
+    {
+      "variable": "avg_tbill_yield",
+      "coefficient": 39377.946561529934,
+      "standard_error": 8741.25900110369,
+      "p_value": 0.00010723356849852174
+    },
+    {
+      "variable": "gdp_growth",
+      "coefficient": 4767.938283872001,
+      "standard_error": 2048.1536830088935,
+      "p_value": 0.027365794624422877
+    }
+  ],
+  "regime_correlations": [
+    {
+      "period": "2017\u20132019",
+      "n": 12,
+      "r": 0.06975630951981673,
+      "p_value": 0.829442971173863
+    },
+    {
+      "period": "2020\u20132021",
+      "n": 8,
+      "r": -0.4680323506701906,
+      "p_value": 0.24217304453786898
+    },
+    {
+      "period": "2022\u20132024",
+      "n": 12,
+      "r": -0.17193640351620235,
+      "p_value": 0.5931156917356821
+    }
+  ],
+  "vif": {
+    "unemployment_rate": 1.5003335606017292,
+    "avg_tbill_yield": 1.4405711561965153,
+    "gdp_growth": 1.0858646191717527
+  },
+  "mann_whitney": {
+    "u": 97.0,
+    "p_value": 0.278974694515427
+  }
+}
